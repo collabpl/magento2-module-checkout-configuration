@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="collab" translate="label" sortOrder="150">
+            <label>Collab Extensions</label>
+        </tab>
+        <section id="collab_checkout_configuration" translate="label" sortOrder="110" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Checkout Configuration</label>
+            <tab>collab</tab>
+            <resource>Collab_CheckoutConfiguration::config</resource>
+        </section>
+    </system>
+</config>
